@@ -2,8 +2,8 @@
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <name>CliCab</name>
     <id>com.clicab.user</id>
-    <version>0.1</version>
-    <sdk-version>2.2.0.v20120731184111</sdk-version>
+    <version>0.6</version>
+    <sdk-version>2.2.0.v20120824175712</sdk-version>
     <guid>3bea4cd1-4b49-4fa1-b715-f40b8148e3cd</guid>
     <publisher>CliCab</publisher>
     <url>http://clicab.com</url>
@@ -13,8 +13,8 @@
     <deployment-targets>
         <target device="iphone">true</target>
         <target device="android">true</target>
+        <target device="ipad">true</target>
         <target device="mobileweb">false</target>
-        <target device="ipad">false</target>
         <target device="blackberry">false</target>
     </deployment-targets>
     <!-- iOS -->
