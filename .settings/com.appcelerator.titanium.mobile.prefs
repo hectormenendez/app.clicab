@@ -1,6 +1,6 @@
 android/alias=taxi
-android/keystore=/Users/et0r/Projects/Taxi/Code/taxi.keystore
-android/output_location=/Users/et0r/Source/External/android-sdk
-android/recent_output=/Users/et0r/Source/External/android-sdk
-android/sdk=Google APIs Android 4.0.3
+android/keystore=/Users/etor/Projects/CliCab/Development/User/extra/CliCab.keystore
+android/output_location=/Users/etor/Source/External/SDK/android-sdk-macosx
+android/recent_output=/Users/etor/Source/External/SDK/android-sdk-macosx,/Users/et0r/Source/External/android-sdk
+android/sdk=Google APIs Android 2.2
 eclipse.preferences.version=1

@@ -7,3 +7,7 @@ provisioning_profiles/adhoc/D552B14E-5971-4EBC-9B0E-617A451D31B5/appid=com.yappm
 provisioning_profiles/adhoc/D552B14E-5971-4EBC-9B0E-617A451D31B5/filepath=/Users/et0r/Library/MobileDevice/Provisioning Profiles/D552B14E-5971-4EBC-9B0E-617A451D31B5.mobileprovision
 provisioning_profiles/adhoc/D552B14E-5971-4EBC-9B0E-617A451D31B5/name=YappMe_AdHoc
 provisioning_profiles/adhoc/D552B14E-5971-4EBC-9B0E-617A451D31B5/uuid=D552B14E-5971-4EBC-9B0E-617A451D31B5
+provisioning_profiles/development/04BAB941-7D0A-4231-A55E-AC398B519AC2/appid=*
+provisioning_profiles/development/04BAB941-7D0A-4231-A55E-AC398B519AC2/filepath=/Users/etor/Library/MobileDevice/Provisioning Profiles/04BAB941-7D0A-4231-A55E-AC398B519AC2.mobileprovision
+provisioning_profiles/development/04BAB941-7D0A-4231-A55E-AC398B519AC2/name=iOS Team Provisioning Profile\: *
+provisioning_profiles/development/04BAB941-7D0A-4231-A55E-AC398B519AC2/uuid=04BAB941-7D0A-4231-A55E-AC398B519AC2

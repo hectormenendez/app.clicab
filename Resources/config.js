@@ -1,5 +1,5 @@
 
 
-exports.core = {
-	debug:true
+exports.Core = {
+	debug : true
 };
