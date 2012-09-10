@@ -5,6 +5,9 @@
  *   / /__/ / / /__/ /_/ / /_/ /
  *   \___/_/_/\___/\__,_/_.___/
  */
+
+var GLOBAL = {};
+
 (function(){
 
     var Core   = require('sys/core');

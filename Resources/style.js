@@ -27,43 +27,27 @@ Style.view = add({
 	zIndex : 0
 });
 
-Style.view.class('toolbar', {
+Style.view.Class('toolbar', {
 	zIndex          : 99,
 	backgroundColor : '#666'
 });
 
-Style.view.class('address',{
+Style.view.Class('address',{
 	zIndex          : 1,
 	layout          : 'vertical',
 	height          : '100%',
 	backgroundColor : 'green'
 });
 
-Style.view.class('addressLine', {
-	backgroundColor : 'pink'
-});
+Style.view.Class('addressLine', {});
 
-Style.view.class('addressLineLeft', {
-	width:'50%',
-	layout: 'vertical',
-	left:0,
-	backgroundColor:'orange'
-});
-
-Style.view.class('addressLineRight', {
-	width:'50%',
-	layout: 'vertical',
-	right:0,
-	backgroundColor:'cyan'
-});
-
-Style.view.class('button', {
+Style.view.Class('button', {
 	color           : '#fff',
 	backgroundColor : 'black',
 	borderRadius    : 4
 });
 
-Style.view.class('dimmer', {
+Style.view.Class('dimmer', {
 	zIndex: 9999,
 	opacity: .9,
 	visible:false,
@@ -94,18 +78,18 @@ Style.label = add({
 	}
 });
 
-Style.label.class('button', {
+Style.label.Class('button', {
 	color : '#fff',
 	width : 'auto',
 });
 
-Style.label.class('addressLabel', {
+Style.label.Class('addressLabel', {
 	color     : '#EEE',
 	width     : '90%',
 	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT,
 });
 
-Style.label.class('dimmer', {
+Style.label.Class('dimmer', {
 	textAlign: 'center',
 	color: '#333',
 	font:{
@@ -118,14 +102,10 @@ Style.label.class('dimmer', {
 
 Style.textfield = add({});
 
-Style.textfield.class('addressField', {
-	width       : '95%',
-	height      : Core.Device.px2dp(Core.Device.isApple? 30 : 35)  + 'dp',
-	borderStyle : Core.Device.isApple? Ti.UI.INPUT_BORDERSTYLE_ROUNDED : undefined,
-	font:{
-		fontSize:12,
-		fontWeight:'bold'
-	}
+Style.textfield.Class('addressField', {
+	width           : '95%',
+	backgroundColor : Core.Device.isApple? undefined : '#FFF',
+	borderStyle     : Core.Device.isApple? Ti.UI.INPUT_BORDERSTYLE_ROUNDED : undefined
 });
 
 

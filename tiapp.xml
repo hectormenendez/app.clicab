@@ -3,7 +3,7 @@
     <name>CliCab</name>
     <id>com.clicab.user</id>
     <version>0.6</version>
-    <sdk-version>2.2.0.v20120827143312</sdk-version>
+    <sdk-version>2.2.0.v20120907162025</sdk-version>
     <guid>3bea4cd1-4b49-4fa1-b715-f40b8148e3cd</guid>
     <publisher>CliCab</publisher>
     <url>http://clicab.com</url>
@@ -17,8 +17,6 @@
         <target device="mobileweb">false</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-
-
     <!-- iOS -->
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
@@ -28,7 +26,6 @@
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
     <property name="ti.ui.defaultunit">system</property>
-
     <!-- iPhone -->
     <iphone>
         <orientations device="iphone">
@@ -38,13 +35,9 @@
             <orientation>Ti.UI.PORTRAIT</orientation>
         </orientations>
     </iphone>
-
-
     <!-- Android -->
-
     <property name="ti.android.google.map.api.key">03FJzKFpdPVHONgyxpjjwljL-efiDbjB-euKAQQ</property>
     <property name="ti.android.google.map.api.key.production">03FJzKFpdPVG0pNPqO-U_cqGCaYswt5M0JO6MwQ</property>
-
     <android xmlns:android="http://schemas.android.com/apk/res/android">
         <manifest>
             <uses-sdk android:minSdkVersion="8"/>
@@ -86,8 +79,6 @@
             </application>
         </manifest>
     </android>
-
-
     <mobileweb>
         <precache/>
         <splash>
