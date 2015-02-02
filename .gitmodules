@@ -1,0 +1,4 @@
+[submodule "ti.prometeo"]
+	path = Resources/sys
+	url = ssh://bitbucket.gikmx/gikmx/ti.prometeo.git
+	branch = nightly
